@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65295851642D03A0066C5AF /* img0.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295731642D03A0066C5AF /* img0.png */; };
+		B65295861642D03A0066C5AF /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295741642D03A0066C5AF /* img1.png */; };
+		B65295871642D03A0066C5AF /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295751642D03A0066C5AF /* img2.png */; };
+		B65295881642D03A0066C5AF /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295761642D03A0066C5AF /* img3.png */; };
+		B65295891642D03A0066C5AF /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295771642D03A0066C5AF /* img4.png */; };
+		B652958A1642D03A0066C5AF /* img5.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295781642D03A0066C5AF /* img5.png */; };
+		B652958B1642D03A0066C5AF /* img6.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295791642D03A0066C5AF /* img6.png */; };
+		B652958C1642D03A0066C5AF /* img7.png in Resources */ = {isa = PBXBuildFile; fileRef = B652957A1642D03A0066C5AF /* img7.png */; };
+		B652958D1642D03A0066C5AF /* img8.png in Resources */ = {isa = PBXBuildFile; fileRef = B652957B1642D03A0066C5AF /* img8.png */; };
+		B652958E1642D03A0066C5AF /* img9.png in Resources */ = {isa = PBXBuildFile; fileRef = B652957C1642D03A0066C5AF /* img9.png */; };
+		B652958F1642D03A0066C5AF /* img10.png in Resources */ = {isa = PBXBuildFile; fileRef = B652957D1642D03A0066C5AF /* img10.png */; };
+		B65295901642D03A0066C5AF /* img11.png in Resources */ = {isa = PBXBuildFile; fileRef = B652957E1642D03A0066C5AF /* img11.png */; };
+		B65295911642D03A0066C5AF /* img12.png in Resources */ = {isa = PBXBuildFile; fileRef = B652957F1642D03A0066C5AF /* img12.png */; };
+		B65295921642D03A0066C5AF /* img13.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295801642D03A0066C5AF /* img13.png */; };
+		B65295931642D03A0066C5AF /* img14.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295811642D03A0066C5AF /* img14.png */; };
+		B65295941642D03A0066C5AF /* img15.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295821642D03A0066C5AF /* img15.png */; };
+		B65295951642D03A0066C5AF /* img16.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295831642D03A0066C5AF /* img16.png */; };
+		B65295961642D03A0066C5AF /* img17.png in Resources */ = {isa = PBXBuildFile; fileRef = B65295841642D03A0066C5AF /* img17.png */; };
+		B660868E163A691B00F3B02F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B660868D163A691B00F3B02F /* UIKit.framework */; };
+		B6608690163A691B00F3B02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B660868F163A691B00F3B02F /* Foundation.framework */; };
+		B6608692163A691B00F3B02F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6608691163A691B00F3B02F /* CoreGraphics.framework */; };
+		B6608698163A691B00F3B02F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6608696163A691B00F3B02F /* InfoPlist.strings */; };
+		B660869A163A691B00F3B02F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6608699163A691B00F3B02F /* main.m */; };
+		B660869E163A691B00F3B02F /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B660869D163A691B00F3B02F /* CFAppDelegate.m */; };
+		B66086A0163A691B00F3B02F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B660869F163A691B00F3B02F /* Default.png */; };
+		B66086A2163A691B00F3B02F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66086A1163A691B00F3B02F /* Default@2x.png */; };
+		B66086A4163A691B00F3B02F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B66086A3163A691B00F3B02F /* Default-568h@2x.png */; };
+		B66086AB163A692E00F3B02F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66086AA163A692E00F3B02F /* Main.storyboard */; };
+		B66086AE163A695E00F3B02F /* CFCoverFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66086AD163A695E00F3B02F /* CFCoverFlowViewController.m */; };
+		B66086B0163A81BC00F3B02F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66086AF163A81BC00F3B02F /* QuartzCore.framework */; };
+		B66086C9163AE26800F3B02F /* CFCoverFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B66086C8163AE26800F3B02F /* CFCoverFlowCell.m */; };
+		B69D9D20163E482900EB648E /* CFCoverFlowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D9D1F163E482900EB648E /* CFCoverFlowImageView.m */; };
+		B69D9D42163FA13200EB648E /* CFCoverFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B69D9D41163FA13200EB648E /* CFCoverFlowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B65295731642D03A0066C5AF /* img0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img0.png; path = Resources/img0.png; sourceTree = "<group>"; };
+		B65295741642D03A0066C5AF /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = Resources/img1.png; sourceTree = "<group>"; };
+		B65295751642D03A0066C5AF /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2.png; path = Resources/img2.png; sourceTree = "<group>"; };
+		B65295761642D03A0066C5AF /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3.png; path = Resources/img3.png; sourceTree = "<group>"; };
+		B65295771642D03A0066C5AF /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img4.png; path = Resources/img4.png; sourceTree = "<group>"; };
+		B65295781642D03A0066C5AF /* img5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img5.png; path = Resources/img5.png; sourceTree = "<group>"; };
+		B65295791642D03A0066C5AF /* img6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img6.png; path = Resources/img6.png; sourceTree = "<group>"; };
+		B652957A1642D03A0066C5AF /* img7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img7.png; path = Resources/img7.png; sourceTree = "<group>"; };
+		B652957B1642D03A0066C5AF /* img8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img8.png; path = Resources/img8.png; sourceTree = "<group>"; };
+		B652957C1642D03A0066C5AF /* img9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img9.png; path = Resources/img9.png; sourceTree = "<group>"; };
+		B652957D1642D03A0066C5AF /* img10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img10.png; path = Resources/img10.png; sourceTree = "<group>"; };
+		B652957E1642D03A0066C5AF /* img11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img11.png; path = Resources/img11.png; sourceTree = "<group>"; };
+		B652957F1642D03A0066C5AF /* img12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img12.png; path = Resources/img12.png; sourceTree = "<group>"; };
+		B65295801642D03A0066C5AF /* img13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img13.png; path = Resources/img13.png; sourceTree = "<group>"; };
+		B65295811642D03A0066C5AF /* img14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img14.png; path = Resources/img14.png; sourceTree = "<group>"; };
+		B65295821642D03A0066C5AF /* img15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img15.png; path = Resources/img15.png; sourceTree = "<group>"; };
+		B65295831642D03A0066C5AF /* img16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img16.png; path = Resources/img16.png; sourceTree = "<group>"; };
+		B65295841642D03A0066C5AF /* img17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img17.png; path = Resources/img17.png; sourceTree = "<group>"; };
+		B6608689163A691B00F3B02F /* CoverFlowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverFlowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B660868D163A691B00F3B02F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B660868F163A691B00F3B02F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6608691163A691B00F3B02F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6608695163A691B00F3B02F /* CoverFlowTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoverFlowTest-Info.plist"; sourceTree = "<group>"; };
+		B6608697163A691B00F3B02F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6608699163A691B00F3B02F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B660869B163A691B00F3B02F /* CoverFlowTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoverFlowTest-Prefix.pch"; sourceTree = "<group>"; };
+		B660869C163A691B00F3B02F /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		B660869D163A691B00F3B02F /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		B660869F163A691B00F3B02F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B66086A1163A691B00F3B02F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B66086A3163A691B00F3B02F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B66086AA163A692E00F3B02F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B66086AC163A695E00F3B02F /* CFCoverFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowViewController.h; sourceTree = "<group>"; };
+		B66086AD163A695E00F3B02F /* CFCoverFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowViewController.m; sourceTree = "<group>"; };
+		B66086AF163A81BC00F3B02F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B66086C7163AE26700F3B02F /* CFCoverFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowCell.h; sourceTree = "<group>"; };
+		B66086C8163AE26800F3B02F /* CFCoverFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowCell.m; sourceTree = "<group>"; };
+		B69D9D1E163E482900EB648E /* CFCoverFlowImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowImageView.h; sourceTree = "<group>"; };
+		B69D9D1F163E482900EB648E /* CFCoverFlowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowImageView.m; sourceTree = "<group>"; };
+		B69D9D40163FA13100EB648E /* CFCoverFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowView.h; sourceTree = "<group>"; };
+		B69D9D41163FA13200EB648E /* CFCoverFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6608686163A691B00F3B02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66086B0163A81BC00F3B02F /* QuartzCore.framework in Frameworks */,
+				B660868E163A691B00F3B02F /* UIKit.framework in Frameworks */,
+				B6608690163A691B00F3B02F /* Foundation.framework in Frameworks */,
+				B6608692163A691B00F3B02F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B660867E163A691B00F3B02F = {
+			isa = PBXGroup;
+			children = (
+				B6608693163A691B00F3B02F /* CoverFlowTest */,
+				B660868C163A691B00F3B02F /* Frameworks */,
+				B660868A163A691B00F3B02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B660868A163A691B00F3B02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6608689163A691B00F3B02F /* CoverFlowTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B660868C163A691B00F3B02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B66086AF163A81BC00F3B02F /* QuartzCore.framework */,
+				B660868D163A691B00F3B02F /* UIKit.framework */,
+				B660868F163A691B00F3B02F /* Foundation.framework */,
+				B6608691163A691B00F3B02F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6608693163A691B00F3B02F /* CoverFlowTest */ = {
+			isa = PBXGroup;
+			children = (
+				B66086B1163AD92900F3B02F /* Resources */,
+				B660869C163A691B00F3B02F /* CFAppDelegate.h */,
+				B660869D163A691B00F3B02F /* CFAppDelegate.m */,
+				B6608694163A691B00F3B02F /* Supporting Files */,
+				B66086AA163A692E00F3B02F /* Main.storyboard */,
+				B66086AC163A695E00F3B02F /* CFCoverFlowViewController.h */,
+				B66086AD163A695E00F3B02F /* CFCoverFlowViewController.m */,
+				B69D9D40163FA13100EB648E /* CFCoverFlowView.h */,
+				B69D9D41163FA13200EB648E /* CFCoverFlowView.m */,
+				B66086C7163AE26700F3B02F /* CFCoverFlowCell.h */,
+				B66086C8163AE26800F3B02F /* CFCoverFlowCell.m */,
+				B69D9D1E163E482900EB648E /* CFCoverFlowImageView.h */,
+				B69D9D1F163E482900EB648E /* CFCoverFlowImageView.m */,
+			);
+			path = CoverFlowTest;
+			sourceTree = "<group>";
+		};
+		B6608694163A691B00F3B02F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6608695163A691B00F3B02F /* CoverFlowTest-Info.plist */,
+				B6608696163A691B00F3B02F /* InfoPlist.strings */,
+				B6608699163A691B00F3B02F /* main.m */,
+				B660869B163A691B00F3B02F /* CoverFlowTest-Prefix.pch */,
+				B660869F163A691B00F3B02F /* Default.png */,
+				B66086A1163A691B00F3B02F /* Default@2x.png */,
+				B66086A3163A691B00F3B02F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B66086B1163AD92900F3B02F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B65295731642D03A0066C5AF /* img0.png */,
+				B65295741642D03A0066C5AF /* img1.png */,
+				B65295751642D03A0066C5AF /* img2.png */,
+				B65295761642D03A0066C5AF /* img3.png */,
+				B65295771642D03A0066C5AF /* img4.png */,
+				B65295781642D03A0066C5AF /* img5.png */,
+				B65295791642D03A0066C5AF /* img6.png */,
+				B652957A1642D03A0066C5AF /* img7.png */,
+				B652957B1642D03A0066C5AF /* img8.png */,
+				B652957C1642D03A0066C5AF /* img9.png */,
+				B652957D1642D03A0066C5AF /* img10.png */,
+				B652957E1642D03A0066C5AF /* img11.png */,
+				B652957F1642D03A0066C5AF /* img12.png */,
+				B65295801642D03A0066C5AF /* img13.png */,
+				B65295811642D03A0066C5AF /* img14.png */,
+				B65295821642D03A0066C5AF /* img15.png */,
+				B65295831642D03A0066C5AF /* img16.png */,
+				B65295841642D03A0066C5AF /* img17.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6608688163A691B00F3B02F /* CoverFlowTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66086A7163A691B00F3B02F /* Build configuration list for PBXNativeTarget "CoverFlowTest" */;
+			buildPhases = (
+				B6608685163A691B00F3B02F /* Sources */,
+				B6608686163A691B00F3B02F /* Frameworks */,
+				B6608687163A691B00F3B02F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoverFlowTest;
+			productName = CoverFlowTest;
+			productReference = B6608689163A691B00F3B02F /* CoverFlowTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6608680163A691B00F3B02F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hidetoshi Mori";
+			};
+			buildConfigurationList = B6608683163A691B00F3B02F /* Build configuration list for PBXProject "CoverFlowTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B660867E163A691B00F3B02F;
+			productRefGroup = B660868A163A691B00F3B02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6608688163A691B00F3B02F /* CoverFlowTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6608687163A691B00F3B02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6608698163A691B00F3B02F /* InfoPlist.strings in Resources */,
+				B66086A0163A691B00F3B02F /* Default.png in Resources */,
+				B66086A2163A691B00F3B02F /* Default@2x.png in Resources */,
+				B66086A4163A691B00F3B02F /* Default-568h@2x.png in Resources */,
+				B66086AB163A692E00F3B02F /* Main.storyboard in Resources */,
+				B65295851642D03A0066C5AF /* img0.png in Resources */,
+				B65295861642D03A0066C5AF /* img1.png in Resources */,
+				B65295871642D03A0066C5AF /* img2.png in Resources */,
+				B65295881642D03A0066C5AF /* img3.png in Resources */,
+				B65295891642D03A0066C5AF /* img4.png in Resources */,
+				B652958A1642D03A0066C5AF /* img5.png in Resources */,
+				B652958B1642D03A0066C5AF /* img6.png in Resources */,
+				B652958C1642D03A0066C5AF /* img7.png in Resources */,
+				B652958D1642D03A0066C5AF /* img8.png in Resources */,
+				B652958E1642D03A0066C5AF /* img9.png in Resources */,
+				B652958F1642D03A0066C5AF /* img10.png in Resources */,
+				B65295901642D03A0066C5AF /* img11.png in Resources */,
+				B65295911642D03A0066C5AF /* img12.png in Resources */,
+				B65295921642D03A0066C5AF /* img13.png in Resources */,
+				B65295931642D03A0066C5AF /* img14.png in Resources */,
+				B65295941642D03A0066C5AF /* img15.png in Resources */,
+				B65295951642D03A0066C5AF /* img16.png in Resources */,
+				B65295961642D03A0066C5AF /* img17.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6608685163A691B00F3B02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B660869A163A691B00F3B02F /* main.m in Sources */,
+				B660869E163A691B00F3B02F /* CFAppDelegate.m in Sources */,
+				B66086AE163A695E00F3B02F /* CFCoverFlowViewController.m in Sources */,
+				B66086C9163AE26800F3B02F /* CFCoverFlowCell.m in Sources */,
+				B69D9D20163E482900EB648E /* CFCoverFlowImageView.m in Sources */,
+				B69D9D42163FA13200EB648E /* CFCoverFlowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6608696163A691B00F3B02F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6608697163A691B00F3B02F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66086A5163A691B00F3B02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B66086A6163A691B00F3B02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66086A8163A691B00F3B02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoverFlowTest/CoverFlowTest-Prefix.pch";
+				INFOPLIST_FILE = "CoverFlowTest/CoverFlowTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B66086A9163A691B00F3B02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoverFlowTest/CoverFlowTest-Prefix.pch";
+				INFOPLIST_FILE = "CoverFlowTest/CoverFlowTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6608683163A691B00F3B02F /* Build configuration list for PBXProject "CoverFlowTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66086A5163A691B00F3B02F /* Debug */,
+				B66086A6163A691B00F3B02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66086A7163A691B00F3B02F /* Build configuration list for PBXNativeTarget "CoverFlowTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66086A8163A691B00F3B02F /* Debug */,
+				B66086A9163A691B00F3B02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6608680163A691B00F3B02F /* Project object */;
+}
